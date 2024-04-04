@@ -8,7 +8,13 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+.cuenta{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 .resultado{
     display: flex;
