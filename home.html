@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcula Porcentaje</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>CALCULA EL 40% DE TU PRODUCTO</h1>
+        </div>
+        <label for="texto">Ingrese monto:</label>
+        <input id="texto" pattern="^[0-9]+(.[0-9]+)?$" type="number">
+        <button id="btnCalcular" onclick="calcularPorcentaje()">Calcular</button>
+        
+        <div class="resultado">
+            <label id="resultado"></label>
+        </div>
+            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
