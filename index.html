@@ -9,9 +9,11 @@
 <body>
     <div class="container">
         <div>
-            <h1>CALCULA EL 40% DE TU PRODUCTO</h1>
+            <h1>CALCULA EL DE TU PRODUCTO</h1>
         </div>
         <div class="cuenta">
+            <label for="porcentaje">Ingrese porcentaje:</label>
+            <input id="porcentaje" pattern="^[0-9]+(.[0-9]+)?$" type="number">
             <label for="texto">Ingrese monto:</label>
             <input id="texto" pattern="^[0-9]+(.[0-9]+)?$" type="number">
             <button id="btnCalcular" onclick="calcularPorcentaje()">Calcular</button>
